@@ -40,6 +40,12 @@
     text-overflow: ellipsis;
 }
 
+@media screen and (min-width: 761px) and (max-width: 1190px) {
+    .article-card {
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: 760px) {
     .article-card {
         width: 100%;
