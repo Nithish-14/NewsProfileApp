@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # News App Profile Page
 
 ## Description
@@ -56,3 +57,6 @@ To run this application locally, follow these steps:
    
   - Enjoy a seamless experience across devices of all sizes.
   - The website adapts to various screen sizes, ensuring accessibility on desktops, tablets, and mobile devices.
+=======
+# NewsProfileApp
+>>>>>>> origin/main
