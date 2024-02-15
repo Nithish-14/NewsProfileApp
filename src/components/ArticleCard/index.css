@@ -1,0 +1,52 @@
+.article-card {
+    background-color: transparent;
+    list-style: none;
+    border: solid 1.2px #505352;
+    border-radius: 12px;
+    padding: 10px 15px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.author-name-para, .article-published-date-para {
+    color: #9ea8a4;
+    margin: 0px;
+}
+
+.article-published-date-para {
+    font-size: 15px;
+}
+
+.article-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article-title {
+    color: #f1f1f1;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.article-content {
+    color :#9ea8a4;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 760px) {
+    .article-card {
+        width: 100%;
+    }
+}
+
+.light-mode-article-para {
+    color: #000000;
+    font-weight: 600;
+}

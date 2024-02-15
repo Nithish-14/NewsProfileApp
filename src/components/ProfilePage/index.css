@@ -1,0 +1,319 @@
+.profile-page-container {
+    padding-top: 50px;
+}
+
+.edit-page-popup {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.profile-section {
+    padding: 20px !important;
+}
+
+.profile-section-bg-container {
+    background-image: url('../../assets/SL-112119-25250-32.jpg');
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile-section-image-container {
+    padding: 0px 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 133px;
+    width: 133px;
+    background-color: #72A3E0;
+    margin-top: -70px;
+}
+
+
+.profile-letter {
+    color: #ffffff;
+    font-size: 55px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 760px) {
+    .profile-page-container {
+        padding-top: 80px;
+    }
+
+    .profile-section {
+        padding: 0px !important;
+    }
+
+    .profile-section-bg-container {
+        height: 200px;
+    }
+
+    .profile-image {
+        height: 107px;
+        width: 107px;
+        margin-top: -60px;
+    }
+
+    .profile-letter {
+        font-size: 45px;
+    }
+}
+
+.edit-profile-button {
+    color: #fff;
+    background-color: transparent;
+    border: solid 1.5px #fff;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 6px 18px;
+    transition: all 0.3s;
+}
+
+.light-mode-edit-profile-button {
+    color: #000000;
+    background-color: transparent;
+    border: solid 1.5px #000000;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 6px 18px;
+    transition: all 0.3s;
+}
+
+.edit-profile-button:hover {
+    background-color: #242222;
+}
+
+.light-mode-edit-profile-button:hover {
+    background-color: #4c5252;
+    color: #fff;
+}
+
+.profile-section-user-details-container {
+    padding: 8px 20px; 
+}
+
+.name-heading {
+    color: #f1f1f1;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.username-para, .date-para, .follow-para {
+    font-size: 18px;
+    color: #707675;
+    margin: 0px;
+}
+
+.follow-para {
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.date-para {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.bio-para {
+    color: #f1f1f1;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.follow-container {
+    margin-top: 8px;
+}
+
+.follow-count-span {
+    color: #fff;
+    font-weight: 600;
+}
+
+.profile-section-articles-container {
+    padding: 20px !important; 
+}
+
+
+.tab-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: solid 3px transparent;
+    transition: all 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #242222;
+}
+
+.light-mode-tab-button {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: solid 3px transparent;
+    transition: all 0.3s;
+}
+
+.light-mode-tab-button:hover {
+    background-color: #efecec;
+}
+
+
+.active-tab {
+    border-bottom: solid 3px #ffffff;
+}
+
+.light-mode-active-tab {
+    border-bottom: solid 3px #000000;
+}
+
+@media screen and (max-width: 760px) {
+   .profile-section-articles-container {
+        padding: 0px !important;
+   }
+
+   .tab-container {
+        margin-top: 10px;
+   }
+
+   .tab-button {
+    font-size: 17px;
+   }
+}
+
+.edit-view-container {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(36, 45, 53, 0.5);
+}
+
+.edit-container {
+    background-color: #141313;
+    border-radius: 10px;
+    padding: 20px 15px;
+    width: 40%;
+}
+
+.light-mode-edit-container {
+    background-color: #ffffff;
+}
+
+.edit-page-close-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-page-close-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s;
+    height: 45px;
+    width: 45px;
+}
+
+.edit-page-close-button:hover {
+    background-color: #242222;
+}
+
+.light-mode-edit-page-close-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s;
+    height: 45px;
+    width: 45px;
+}
+
+.light-mode-edit-page-close-button:hover {
+    background-color: #efecec;
+}
+
+
+.edit-profile-para {
+    color: #ffffff;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.light-mode-edit-profile-para {
+    color: #000000;
+}
+
+.edit-page-save-button {
+    border: none;
+    border-radius: 18px;
+    padding: 6px 17px;
+    color: #000000;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.form-container {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-element {
+    width: 90%;
+    border: solid 1.5px #3f3939;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: transparent;
+    outline: none;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.light-mode-input-element {
+    border: solid 1.5px #3f3939;
+    color: #000000;
+}
+
+.input-element:focus {
+    border: solid 1px #e2dddd;
+}
+
+.light-mode-input-element:focus {
+    border: solid 1.5px #000000;
+}
+
+@media screen and (max-width: 760px) {
+    .edit-container {
+        width: 90%;
+    }
+
+    .form-container textarea {
+        height: 110px;
+    }
+}
+
+.light-mode-name-heading {
+    color: #000000;
+}
