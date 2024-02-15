@@ -19,7 +19,7 @@ To run this application locally, follow these steps:
 2. Navigate into the project directory:
 
    ```bash
-   cd news-app-profile-page
+   cd NewsProfileApp
 
 3. Install dependencies:
 
