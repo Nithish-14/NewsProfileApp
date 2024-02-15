@@ -16,3 +16,25 @@ To run this application locally, follow these steps:
 
    ```bash
    git clone https://github.com/Nithish-14/NewsProfileApp.git
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd news-app-profile-page
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+
+4. Start the development server:
+
+   ```bash
+   npm start
+
+5. Open your browser and navigate to **http://localhost:3000** to view the application.
+
+
+### Usage
+
+
