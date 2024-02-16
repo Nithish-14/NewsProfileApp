@@ -1,6 +1,6 @@
 # News App Profile Page
 
-Visit our website at [news-profile-app-five.vercel.app](https://news-profile-app-five.vercel.app/).
+Visit our website at [news-profile-app-five.vercel.app](https://news-profile-app-five.vercel.app/profile).
 
 ## Description
 
