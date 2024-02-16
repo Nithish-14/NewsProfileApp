@@ -6,7 +6,7 @@ This project aims to develop a user profile page resembling Instagram, tailored 
 
 ## Screenshots
 
-![Image 1](https://res.cloudinary.com/dceo5fgii/image/upload/v1708056737/localhost_3000_profile_thkf0g.png) ![Image 2](<img src="https://res.cloudinary.com/dceo5fgii/image/upload/v1708056811/localhost_3000_profile_iPhone_14_Pro_Max_tcuad0.png" alt="Image 2" width="400"/>)
+![Image 1](https://res.cloudinary.com/dceo5fgii/image/upload/v1708056737/localhost_3000_profile_thkf0g.png) ![Image 2](https://res.cloudinary.com/dceo5fgii/image/upload/v1708056811/localhost_3000_profile_iPhone_14_Pro_Max_tcuad0.png)
 
 ## Installation
 
